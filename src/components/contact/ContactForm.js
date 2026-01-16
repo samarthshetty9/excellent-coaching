@@ -17,32 +17,32 @@ export default function ContactForm() {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="first-name" className="block text-sm font-bold text-gray-900 mb-2">First Name</label>
-                                    <input type="text" id="first-name" className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="First Name" />
+                                    <input type="text" id="first-name" required className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="First Name" />
                                 </div>
                                 <div>
                                     <label htmlFor="last-name" className="block text-sm font-bold text-gray-900 mb-2">Last Name</label>
-                                    <input type="text" id="last-name" className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Last Name" />
+                                    <input type="text" id="last-name" required className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="phone" className="block text-sm font-bold text-gray-900 mb-2">Phone Number</label>
-                                    <input type="text" id="phone" className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Enter your number" />
+                                    <input type="text" id="phone" required className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Enter your number" />
                                 </div>
                                 <div>
                                     <label htmlFor="email" className="block text-sm font-bold text-gray-900 mb-2">Your Email</label>
-                                    <input type="email" id="email" className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Enter your email" />
+                                    <input type="email" id="email" required className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Enter your email" />
                                 </div>
                             </div>
 
                             <div>
                                 <label htmlFor="query" className="block text-sm font-bold text-gray-900 mb-2">Query</label>
-                                <textarea id="query" rows={4} className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Text here"></textarea>
+                                <textarea id="query" rows={4} required className="w-full rounded-md border-0 py-2.5 pl-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#941932] sm:text-sm sm:leading-6 bg-[#FAFAFA]" placeholder="Text here"></textarea>
                             </div>
 
                             <div className="flex justify-center">
-                                <button type="submit" className="rounded-md bg-[#7F1D1D] px-8 py-3 text-sm font-bold text-white shadow-sm hover:bg-[#941932] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#941932] transition-colors">
+                                <button type="button" className="rounded-md bg-[#7F1D1D] px-8 py-3 text-sm font-bold text-white shadow-sm hover:bg-[#941932] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#941932] transition-colors">
                                     Send Message
                                 </button>
                             </div>
