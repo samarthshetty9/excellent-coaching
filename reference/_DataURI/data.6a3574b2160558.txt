@@ -1,0 +1,1 @@
+chrome-extension://fbcohnmimjicjdomonkcbcpbpnhggkip/contentscripts/rc2LoadingIndicator.js
