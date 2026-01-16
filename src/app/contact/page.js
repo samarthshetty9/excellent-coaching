@@ -1,8 +1,8 @@
-import Navbar from "@/components/Navbar";
-import ContactForm from "@/components/ContactForm";
-import ContactInfo from "@/components/ContactInfo";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
+import Navbar from "@/components/common/Navbar";
+import ContactForm from "@/components/contact/ContactForm";
+import ContactInfo from "@/components/contact/ContactInfo";
+import Footer from "@/components/common/Footer";
+import WhatsAppButton from "@/components/common/WhatsAppButton";
 
 export default function Contact() {
     return (
