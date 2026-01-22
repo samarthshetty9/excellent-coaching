@@ -51,7 +51,7 @@ export default function ContactInfo() {
                                     <PhoneIcon className="w-5 h-5 text-white" />
                                 </div>
                                 <p className="text-[#0D1B2A] font-bold text-sm leading-relaxed pt-3">
-                                    +91 9538001300 , +91 9538677021, +91 7829308805
+                                    +91 9538001300 , +91 9538677021, +91 7892608805
                                 </p>
                             </div>
 
